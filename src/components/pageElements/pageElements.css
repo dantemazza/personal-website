@@ -1,0 +1,17 @@
+.header{
+    background-color: #333;
+    color: whitesmoke;
+    height: 90px;
+    text-align: center;
+    display: flex;
+    font-size: 75px;
+    font-family: 'Roboto';
+    justify-content: center;
+}
+
+.menuItem{
+    background-color: #737373;
+    color: whitesmoke;
+    height: 75px;
+    display: block;
+}
