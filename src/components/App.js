@@ -7,10 +7,8 @@ import PageContent from './pageElements/content/PageContent'
 
 function App() {
   return (
-      <div className = 'page'>
-
-        {/* <Header />
-        <Menu /> */}
+      <div className = 'page'>    
+        <Header />
       </div>
   );
 }

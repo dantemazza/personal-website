@@ -9,4 +9,16 @@
   z-index:1000;
   opacity:0.8;
   background-repeat: no-repeat;
-} 
+  -webkit-animation: opening 10s ; /* Chrome, Safari, Opera */
+  animation: opening 10s ;
+}
+
+@-webkit-keyframes opening {
+  from {opacity: 0;}
+  to {opacity: 0.8;}
+}
+
+@keyframes opening {
+  from {opacity: 0;}
+  to {opacity: 0.8;}
+}
