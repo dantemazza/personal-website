@@ -1,5 +1,5 @@
 .page{
-  background-image: url('./../resources/background_honeycomb.jpg');
+  background-image: url('./images/background_honeycomb.jpg');
   background-size:100% 100%;
   position:fixed;
   width:100%;
@@ -7,13 +7,12 @@
   top:0px;
   left:0px;
   z-index:1000;
-  opacity:0.8;
   background-repeat: no-repeat;
-  -webkit-animation: opening 10s ; /* Chrome, Safari, Opera */
-  animation: opening 10s ;
+  /* -webkit-animation: opening 10s ; /* Chrome, Safari, Opera */
+  /* animation: opening 10s ;  */
 }
 
-@-webkit-keyframes opening {
+/* @-webkit-keyframes opening {
   from {opacity: 0;}
   to {opacity: 0.8;}
 }
@@ -21,4 +20,16 @@
 @keyframes opening {
   from {opacity: 0;}
   to {opacity: 0.8;}
+} */
+
+.headshot{
+  width:200px;
+  height:200px;
+  opacity:0.9;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:10px;
+  margin-bottom:10px;
 }

@@ -18,12 +18,72 @@
 
 .header{
     width: 100%;
-    height: 100%;
-    line-height: 650px;
-    font-size:90px;
-    display: inline-block;
+    line-height:75px;
+    font-size:75px;
     text-align: center;
-    justify-content: center;
-    position: absolute;
-    vertical-align: middle;
+    /* justify-content: center; */
+    position: relative;
+    /* vertical-align: middle; */
 }
+
+
+.InfoBar{
+    width: 95%;
+    text-align: center;
+    justify-content: center; 
+    position: relative;
+    vertical-align: middle;
+    display:inline-block; 
+    height: 30px;
+}
+
+.infoImage{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.highlight{
+    display:inline-block;
+    width:30px;
+    height: 30px;  
+    padding-left:8px;
+    padding-right:8px; 
+}
+
+.highlight img:hover{
+    opacity: .5;
+}
+
+.navHighlight{
+    display:inline-block;
+    height: 30px;  
+    padding-left:8px;
+    padding-right:8px; 
+    font-size: 25px;
+    color: black;   
+}
+
+.introText{
+    justify-content: center; 
+    text-align: left;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+
+
+.employerLinks{
+    text-decoration: none;
+    color: #2d667e;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: #2d667e;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }

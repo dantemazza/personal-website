@@ -1,15 +1,20 @@
 import React from 'react';
-import logo from './../resources/logo.svg';
 import './App.css';
-import Menu from './pageElements/Menu';
+import InfoBar from './pageElements/InfoBar';
 import Header from './pageElements/Header';
-import PageContent from './pageElements/content/PageContent'
+import NavBar from './pageElements/NavBar';
+import IntroText from './pageElements/IntroText'
+import headshot from './images/UW-headshots-22.jpg'
 
 function App() {
   return (
-      <div className = 'page'>    
+      <section className = 'page'>    
         <Header />
-      </div>
+        <NavBar />
+        <img src={headshot} className='headshot'/>
+        <IntroText />
+        <InfoBar />
+      </section>
   );
 }
 
