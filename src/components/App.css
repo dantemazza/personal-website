@@ -1,5 +1,6 @@
 .page{
-  background-image: url('./images/background_honeycomb.jpg');
+  /* background-image: url('./images/background_honeycomb.jpg'); */
+  background-color: #fafafa ;
   background-size:100% 100%;
   position:fixed;
   width:100%;
