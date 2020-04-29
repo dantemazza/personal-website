@@ -1,31 +1,46 @@
 import React from 'react';
 import './pageElements.css';
 
-function NavBar(){
-    return(
-        <ul className = "InfoBar">
-            <a href="https://www.linkedin.com/in/dante-mazza/"  target="_blank">
+class NavBar extends React.Component{
+
+    constructor(props){
+        super(props)
+        this.state = {
+            page: "Home"
+        }
+    }
+
+    handleClick(page){
+        this.setState({page: page})
+        this.props.navHandler(page);
+    }
+
+    render(){
+        return(
+            <ul className = "InfoBar">
                 <div className="navHighlight">
-                    Home
+                    <a href="#" onClick={() => this.handleClick("Home")} style={{ color: this.state.page == "Home" ? "black" : "grey"}} className="navLink">
+                        Home
+                    </a>
                 </div>  
-            </a>
-            <a href="https://www.github.com/dantemazza/" target="_blank">
                 <div className="navHighlight">
-                    About
+                    <a href="#" onClick={() => this.handleClick("About")} style={{ color: this.state.page == "About" ? "black" : "grey"}} className="navLink">
+                        About
+                    </a>
                 </div>
-            </a>
-            <a href="https://www.leetcode.com/dantemazza/" target="_blank">
                 <div className="navHighlight">
-                    Experience
+                     <a href="#" onClick={() => this.handleClick("Experience")} style={{ color: this.state.page == "Experience" ? "black" : "grey"}} className="navLink">
+                        Experience
+                    </a>
                 </div>
-            </a>
-            <a href="mailto:d2mazza@uwaterloo.ca" target="_blank">
                 <div className="navHighlight">
-                    Projects
+                    <a href="#" onClick={() => this.handleClick("Projects")} style={{ color: this.state.page == "Projects" ? "black" : "grey"}} className="navLink">
+                        Projects
+                    </a>
                 </div>
-            </a>
-        </ul>
-    );
+            </ul>
+        );
+    }
 }
 
 export default NavBar;

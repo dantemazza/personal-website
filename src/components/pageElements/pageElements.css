@@ -63,6 +63,10 @@
     color: black;   
 }
 
+.navHighlight:hover div{
+    color:#646464;
+}
+
 .introText{
     justify-content: center; 
     text-align: center;
@@ -74,18 +78,36 @@
     color: grey;
 }
 
+.navLink{
+    text-decoration: none;    
+}
 
+a.navLink:hover{
+    color: black;
+}
 
 .employerLinks{
     text-decoration: none;
     color: #2d667e;
   }
   
-  a:visited {
+ a.employerLinks:visited{
     text-decoration: none;
     color: #2d667e;
   }
   
-  a:hover {
+  a.employerLinks:hover {
     text-decoration: underline;
+  }
+
+  .headshot{
+    width:200px;
+    height:200px;
+    opacity:0.9;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    margin-bottom:10px;
   }

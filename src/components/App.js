@@ -1,21 +1,39 @@
 import React from 'react';
-import './App.css';
-import InfoBar from './pageElements/InfoBar';
 import Header from './pageElements/Header';
 import NavBar from './pageElements/NavBar';
-import IntroText from './pageElements/IntroText'
-import headshot from './images/UW-headshots-22.jpg'
+import Home from './pageElements/Home/Home'
 
-function App() {
-  return (
-      <section className = 'page'>    
-        <Header />
-        <NavBar />
-        <img src={headshot} className='headshot'/>
-        <IntroText />
-        <InfoBar />
-      </section>
-  );
+
+class App extends React.Component {
+
+  constructor(){
+    super();
+    this.state = {
+        page: "Home"
+    }
+
+    this.navHandler = this.navHandler.bind(this);
+  }
+
+  handlePage(){
+    if(this.state.page=="Home"){
+      return <Home />
+    }
+  }
+
+  navHandler(page){
+    this.setState({page: page});
+  }
+
+  render(){
+    return (
+        <section className = 'page'>    
+          <Header />
+          <NavBar navHandler = {this.navHandler}/>  
+          {this.handlePage()}
+        </section>
+    );
+  }
 }
 
 export default App;
