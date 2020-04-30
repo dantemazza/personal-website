@@ -1,7 +1,10 @@
 import React from 'react';
-import Header from './pageElements/Header';
-import NavBar from './pageElements/NavBar';
-import Home from './pageElements/Home/Home'
+import Header from './pages/Header';
+import NavBar from './pages/NavBar';
+import Home from './pages/Home/Home'
+import About from './pages/About/About'
+import Projects from './pages/Projects/Projects'
+import Experience from './pages/Experience/Experience'
 
 
 class App extends React.Component {
@@ -9,16 +12,10 @@ class App extends React.Component {
   constructor(){
     super();
     this.state = {
-        page: "Home"
+        page: Home
     }
 
     this.navHandler = this.navHandler.bind(this);
-  }
-
-  handlePage(){
-    if(this.state.page=="Home"){
-      return <Home />
-    }
   }
 
   navHandler(page){
@@ -26,11 +23,12 @@ class App extends React.Component {
   }
 
   render(){
+    const Page = this.state.page; 
     return (
         <section className = 'page'>    
           <Header />
           <NavBar navHandler = {this.navHandler}/>  
-          {this.handlePage()}
+          <Page />
         </section>
     );
   }
