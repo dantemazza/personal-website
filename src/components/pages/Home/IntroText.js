@@ -4,12 +4,6 @@ import React from 'react';
 function IntroText(){
     return(
         <div class='introText'>
-            {/*
-            <p>
-                Outside of tech, I enjoy weightlifting, cooking, and&nbsp; 
-                <a href="https://www.naqt.com/stats/player/index.jsp?contact_id=416423" className="employerLinks" target="_blank">competitive trivia</a>
-                &nbsp; in my leisure time.
-            </p> */}
             <p>
                 Incoming Machine Learning Engineer at <a href="https://www.bht.ai/" target="_blank" className="employerLinks">Bear Health Technologies</a>.
             </p>

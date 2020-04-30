@@ -14,7 +14,6 @@ class App extends React.Component {
     this.state = {
         page: Home
     }
-
     this.navHandler = this.navHandler.bind(this);
   }
 

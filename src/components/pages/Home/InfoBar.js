@@ -11,7 +11,7 @@ function InfoBar(){
                 <div className="highlight">
                     <img src={linkedin} className='infoImage'/>
                 </div>  
-            </a>
+            </a>    
             <a href="https://www.github.com/dantemazza/" target="_blank">
                 <div className="highlight">
                     <img src={octocat} className='infoImage' />

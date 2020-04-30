@@ -111,3 +111,32 @@ a.navLink:hover{
     margin-top:10px;
     margin-bottom:10px;
   }
+
+.aboutContainer{
+    margin-top: 20px;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center; 
+}
+
+.aboutPic{
+    width: 234px;
+}
+
+.aboutPic img{
+    max-width: 100%;
+    height: auto;
+    float:left;
+    margin-right: 38px;
+}
+
+.aboutText{
+    width: 578px;
+    font-family:"Roboto";
+    color: black;
+    text-align: left;
+    float:left;
+    font-size:20px;
+    line-height: 1.5;
+}
