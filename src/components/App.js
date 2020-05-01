@@ -2,9 +2,6 @@ import React from 'react';
 import Header from './pages/Header';
 import NavBar from './pages/NavBar';
 import Home from './pages/Home/Home'
-import About from './pages/About/About'
-import Projects from './pages/Projects/Projects'
-import Experience from './pages/Experience/Experience'
 
 
 class App extends React.Component {

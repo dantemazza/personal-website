@@ -5,6 +5,7 @@ import headshot from './images/UW-headshots-22.jpg'
 import InfoBar from './InfoBar';
 
 function Home(){
+
     return(
         <>
             <img src={headshot} className='headshot'/>
