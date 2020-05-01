@@ -16,7 +16,7 @@ function About(){
                 <p>
                     School aside, I love learning about tech through personal projects.
                     Outside of tech, I enjoy weightlifting, cooking, and&nbsp; 
-                    <a href="https://www.naqt.com/stats/player/index.jsp?contact_id=416423" className="employerLinks" target="_blank">competitive trivia</a>
+                    <a href="https://www.naqt.com/stats/player/index.jsp?contact_id=416423" className="employerLinks" target="_blank" rel="noopener noreferrer">competitive trivia</a>
                     &nbsp;in my leisure time.
                 </p>
             </div>
