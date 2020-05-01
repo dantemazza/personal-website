@@ -6,11 +6,11 @@ import SAP from './images/SAP.png'
 import TW from './images/torontowater.jpg'
 
 const experienceContent = [
-    ['My Resume', 'Hover over the logos for details!'],
-    ['Bear Health Techonologies', 'Coming Soon!'],
-    ['SAP SE', 'Coming Soon!'],
-    ['Toronto Water', 'Coming Soon!']
-    ]   
+    [<a href ="images/bht.png" className ="employerLinks">My Resume</a>, 'Hover over the logos to learn about my work experiences!'],
+    [<h1>Bear Health Techonologies</h1>, 'Coming Soon!'],
+    [<h1>SAP SE</h1>, 'Coming Soon!'],
+    [<h1>Toronto Water</h1>, 'Coming Soon!']
+    ]  
 
 class Experience extends React.Component{
     
