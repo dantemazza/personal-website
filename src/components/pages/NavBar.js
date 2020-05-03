@@ -4,6 +4,9 @@ import Home from './Home/Home'
 import About from './About/About'
 import Projects from './Projects/Projects'
 import Experience from './Experience/Experience'
+import NavElement from './NavElement'
+
+
 
 class NavBar extends React.Component{
 
@@ -12,6 +15,7 @@ class NavBar extends React.Component{
         this.state = {
             page: Home
         }
+        this.handleClick = this.handleClick.bind(this);
     }
 
     handleClick(page){
@@ -22,26 +26,11 @@ class NavBar extends React.Component{
     render(){
         return(
             <ul className = "InfoBar">
-                <div className="navHighlight">
-                    <a href="#" onClick={() => this.handleClick(Home)} style={{ color: this.state.page == Home ? "black" : "grey"}} className="navLink">
-                        Home
-                    </a>
-                </div>  
-                <div className="navHighlight">
-                    <a href="#" onClick={() => this.handleClick(About)} style={{ color: this.state.page == About ? "black" : "grey"}} className="navLink">
-                        About
-                    </a>
-                </div>
-                <div className="navHighlight">
-                     <a href="#" onClick={() => this.handleClick(Experience)} style={{ color: this.state.page == Experience ? "black" : "grey"}} className="navLink">
-                        Experience
-                    </a>
-                </div>
-                <div className="navHighlight">
-                    <a href="#" onClick={() => this.handleClick(Projects)} style={{ color: this.state.page == Projects ? "black" : "grey"}} className="navLink">
-                        Projects
-                    </a>
-                </div>
+                {console.log(this.state.page == Home)}
+                <NavElement handleClick = {this.handleClick} name={Home} current={this.state.page == Home}/>
+                <NavElement handleClick = {this.handleClick} name={About} current={this.state.page == About}/>
+                <NavElement handleClick = {this.handleClick} name={Experience} current={this.state.page == Experience}/>
+                <NavElement handleClick = {this.handleClick} name={Projects} current={this.state.page == Projects}/>
             </ul>
         );
     }
