@@ -1,6 +1,6 @@
 import React from 'react';
 import '../pageElements.css';
-import ImageSlider from '../ImageSlider'
+import ImageSlider from './ImageSlider'
 import BHT from './images/bht.png'
 import SAP from './images/SAP.png'
 import TW from './images/torontowater.jpg'

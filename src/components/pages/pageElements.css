@@ -165,6 +165,27 @@ div.imageSlider:hover{
     opacity: .5;
 }
 
+.projectSlider{
+    line-height:175%;
+    height: 100px;
+    width: 450px;
+}
+
+div.projectSlider:hover{
+    margin-left: 30px;
+    transition: margin-left 700ms;
+    opacity: .7;
+}
+
+.projectSlider a{
+    text-decoration: none;
+    color:black;
+}
+
+/* .projectSlider a:visited{
+    color:black;
+} */
+
 .p{
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */

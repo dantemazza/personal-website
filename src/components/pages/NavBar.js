@@ -26,7 +26,6 @@ class NavBar extends React.Component{
     render(){
         return(
             <ul className = "InfoBar">
-                {console.log(this.state.page == Home)}
                 <NavElement handleClick = {this.handleClick} name={Home} current={this.state.page == Home}/>
                 <NavElement handleClick = {this.handleClick} name={About} current={this.state.page == About}/>
                 <NavElement handleClick = {this.handleClick} name={Experience} current={this.state.page == Experience}/>

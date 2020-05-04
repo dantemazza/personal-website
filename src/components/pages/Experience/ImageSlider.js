@@ -1,5 +1,5 @@
 import React from 'react';
-import './pageElements.css';
+import '../pageElements.css';
 
 class ImageSlider extends React.Component{
 
@@ -13,7 +13,6 @@ class ImageSlider extends React.Component{
             <img src={this.props.image} 
              onMouseOver={() => this.props.hoverHandle(this.props.image)} 
              onMouseLeave = {() => this.props.hoverHandle(null)}/>
-            <font size="30">&#8594;</font>
         </div>
     );
     }
