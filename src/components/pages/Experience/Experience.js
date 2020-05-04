@@ -4,9 +4,10 @@ import ImageSlider from './ImageSlider'
 import BHT from './images/bht.png'
 import SAP from './images/SAP.png'
 import TW from './images/torontowater.jpg'
+import Resume from './resume.pdf'
 
 const experienceContent = [
-    [<a href ="images/bht.png" className ="employerLinks">My Resume</a>, 'Hover over the logos to learn about my work experiences!'],
+    [<a href ={Resume} className ="employerLinks" target = '_blank' rel="noopener noreferrer">My Resume</a>, 'Hover over the logos to learn about my work experiences!'],
     [<><h1>Machine Learning Engineer</h1><h3>Bear Health Technologies</h3></>, 
     'Excitement!'],
     [<><h1>Automation Developer</h1><h3>SAP SE</h3></>,
