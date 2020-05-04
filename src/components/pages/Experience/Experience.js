@@ -7,9 +7,15 @@ import TW from './images/torontowater.jpg'
 
 const experienceContent = [
     [<a href ="images/bht.png" className ="employerLinks">My Resume</a>, 'Hover over the logos to learn about my work experiences!'],
-    [<h1>Bear Health Techonologies</h1>, 'Coming Soon!'],
-    [<h1>SAP SE</h1>, 'Coming Soon!'],
-    [<h1>Toronto Water</h1>, 'Coming Soon!']
+    [<><h1>Machine Learning Engineer</h1><h3>Bear Health Technologies</h3></>, 
+    'Excitement!'],
+    [<><h1>Automation Developer</h1><h3>SAP SE</h3></>,
+    'Got to tackle a lot of interesting problems related to QA automation. My primary goal throughout the term was making\
+    test suites robust enough to survive version changes, varying response times, and other variables, while providing a foundation\
+    of abstraction that the next interns could build upon.'],
+    [<><h1>IT Trainee (Business Support)</h1><h3>Toronto Water</h3></>,
+    'My first internship was with this branch of the City of Toronto. My focus was on updating business procedures to meet\
+    the public sector\'s rigorous auditing standards, which involved a lot of technical documentation and some automation.']
     ]  
 
 class Experience extends React.Component{

@@ -1,10 +1,6 @@
 import React from 'react';
-import ReactDOMServer from 'react-dom/server'
 import './pageElements.css';
-import Home from './Home/Home'
-import About from './About/About'
-import Projects from './Projects/Projects'
-import Experience from './Experience/Experience'
+
 
 
 
