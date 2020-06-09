@@ -29,7 +29,7 @@ class NavElement extends React.Component{
                  onMouseOver={() => this.setState({hover : true})}
                  onMouseLeave={() => this.setState({hover : false})}
                  style={{color: this.getColor()}} className="navLink">
-                    {this.props.name.name}
+                    {this.props.title}
                 </a>
         </div>      
     );

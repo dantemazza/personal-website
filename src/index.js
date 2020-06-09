@@ -2,10 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App';
-import Header from './components/App';
 
 ReactDOM.render(
-    <Header />,
+    <App />,
   document.getElementById('root')
 );
 

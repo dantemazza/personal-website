@@ -9,7 +9,7 @@ import Resume from './resume.pdf'
 const experienceContent = [
     [<a href ={Resume} className ="employerLinks" target = '_blank' rel="noopener noreferrer">My Resume</a>, 'Hover over the logos to learn about my work experiences!'],
     [<><h1>Machine Learning Engineer</h1><h3>Bear Health Technologies</h3></>, 
-    'Building machine learning to solve tough and interesting problems in the clinical documentation industry!'],
+    'Building machine learning systems to solve tough and interesting problems in the clinical documentation industry!'],
     [<><h1>Automation Developer</h1><h3>SAP SE</h3></>,
     'Got to tackle a lot of interesting problems related to QA automation. My primary goal throughout the term was making\
     test suites robust enough to survive version changes, varying response times, and other variables, while providing a foundation\
