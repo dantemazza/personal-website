@@ -3,7 +3,7 @@ import '../pageElements.css';
 
 function IntroText(){
     return(
-        <div class='introText'>
+        <div className='introText'>
             <p>
                 Machine Learning Engineer at <a href="https://www.bht.ai/" target="_blank" rel="noopener noreferrer" className="employerLinks">Bear Health Technologies</a>.
             </p>
