@@ -15,7 +15,7 @@ function About(){
                 </p>
                 <p>
                     School aside, I love learning technical skills through side projects.
-                    Outside of tech, I enjoy weightlifting, cooking, and&nbsp; 
+                    Outside of tech, I enjoy weightlifting, cooking, playing basketball and&nbsp; 
                     <a href="https://www.naqt.com/stats/player/index.jsp?contact_id=416423" className="employerLinks" target="_blank" rel="noopener noreferrer">competitive trivia</a>
                     &nbsp;in my leisure time.
                 </p>
