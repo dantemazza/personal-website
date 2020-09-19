@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8af87e14.chunk.css",
+    "main.js": "/static/js/main.eb50b13b.chunk.js",
+    "main.js.map": "/static/js/main.eb50b13b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d7d89e4f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d7d89e4f.js.map",
+    "static/js/2.96056a7d.chunk.js": "/static/js/2.96056a7d.chunk.js",
+    "static/js/2.96056a7d.chunk.js.map": "/static/js/2.96056a7d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.7be2adab75032bb0f93c188cd029958e.js": "/precache-manifest.7be2adab75032bb0f93c188cd029958e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.8af87e14.chunk.css.map": "/static/css/main.8af87e14.chunk.css.map",
+    "static/js/2.96056a7d.chunk.js.LICENSE.txt": "/static/js/2.96056a7d.chunk.js.LICENSE.txt",
+    "static/media/SAP.png": "/static/media/SAP.bd705acd.png",
+    "static/media/UW-headshots-22.jpg": "/static/media/UW-headshots-22.12e737e8.jpg",
+    "static/media/boolean-solver.JPG": "/static/media/boolean-solver.86319513.JPG",
+    "static/media/desktop-chess.jpg": "/static/media/desktop-chess.c778a206.jpg",
+    "static/media/langram.jpeg": "/static/media/langram.d4667e0e.jpeg",
+    "static/media/leetcode.png": "/static/media/leetcode.ca674b51.png",
+    "static/media/linkedin.png": "/static/media/linkedin.6e154f80.png",
+    "static/media/matrix-plus.JPG": "/static/media/matrix-plus.6dfc5f57.JPG",
+    "static/media/movie-recommender.png": "/static/media/movie-recommender.5a72053a.png",
+    "static/media/personal-website.png": "/static/media/personal-website.9025046a.png",
+    "static/media/resume.pdf": "/static/media/resume.3c4ac2d9.pdf",
+    "static/media/televised.jpeg": "/static/media/televised.125a60ee.jpeg",
+    "static/media/torontowater.jpg": "/static/media/torontowater.abc325ff.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7d89e4f.js",
+    "static/js/2.96056a7d.chunk.js",
+    "static/css/main.8af87e14.chunk.css",
+    "static/js/main.eb50b13b.chunk.js"
+  ]
+}
