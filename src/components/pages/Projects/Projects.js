@@ -1,7 +1,7 @@
 import React from 'react';
 import '../pageElements.css';
 import ProjectSlider from './ProjectSlider'
-import booleanSolver from './images/boolean-solver.JPG'
+import booleanSolver from './images/flask_app.png'
 import desktopChess from './images/desktop-chess.jpg'
 import langram from './images/langram.jpeg'
 import matrixPlus from './images/matrix-plus.JPG'
@@ -19,9 +19,10 @@ const content = [
         "I love chess. I used to play competitively in high school (I wasn't very good) and still do so casually. I wrote this\
         throughout my 1.5hr commute to work and back when I first began learning to code in Winter 2019."
         ],
-        ["BooleanSolver", "boolean-solver", "Module for simplifying boolean functions", booleanSolver,
+        ["BooleanSolver", "boolean-solver", "Flask app that simplifies boolean functions", booleanSolver,
         "When my digital logic professor showed us a method for simplifying boolean functions that could be implemented\
-        in software, I saw it as a fun way of improving my python over the break."
+        in software, I saw it as a fun way of improving my python over the break! I've recently turned it into a flask app and will soon\
+        be deploying it with the domain www.booleansolver.com"
         ],
         ["Movie Recommender", "movie-recommender", "An exploration into collaborative filtering", movieRecommender,
          "Mostly an algorithm implementation project, but I also got introduced to Flask and REST APIs."
