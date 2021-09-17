@@ -21,8 +21,8 @@ const content = [
         ],
         ["BooleanSolver", "boolean-solver", "Flask app that simplifies boolean functions", booleanSolver,
         "When my digital logic professor showed us a method for simplifying boolean functions that could be implemented\
-        in software, I saw it as a fun way of improving my python over the break! I've recently turned it into a flask app and will soon\
-        be deploying it with the domain www.booleansolver.com"
+        in software, I saw it as a fun way of improving my python over the break! I've recently turned it into a flask app it is now deployed \
+        as www.booleansolver.com! Click the arrow to see."
         ],
         ["Movie Recommender", "movie-recommender", "An exploration into collaborative filtering", movieRecommender,
          "Mostly an algorithm implementation project, but I also got introduced to Flask and REST APIs."

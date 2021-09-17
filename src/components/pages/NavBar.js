@@ -26,10 +26,10 @@ class NavBar extends React.Component{
     render(){
         return(
             <ul className = "InfoBar">
-                <NavElement handleClick = {this.handleClick} name={Home} current={this.state.page == Home} title="Home"/>
-                <NavElement handleClick = {this.handleClick} name={About} current={this.state.page == About} title="About"/>
-                <NavElement handleClick = {this.handleClick} name={Experience} current={this.state.page == Experience} title="Experience"/> 
-                <NavElement handleClick = {this.handleClick} name={Projects} current={this.state.page == Projects} title="Projects"/>
+                <NavElement handleClick = {this.handleClick} name={Home} current={this.state.page === Home} title="Home"/>
+                <NavElement handleClick = {this.handleClick} name={About} current={this.state.page === About} title="About"/>
+                <NavElement handleClick = {this.handleClick} name={Experience} current={this.state.page === Experience} title="Experience"/> 
+                <NavElement handleClick = {this.handleClick} name={Projects} current={this.state.page === Projects} title="Projects"/>
             </ul>
         );
     }

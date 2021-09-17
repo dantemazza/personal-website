@@ -1,23 +1,23 @@
 import React from 'react';
 import '../pageElements.css';
 import ImageSlider from './ImageSlider'
-import BHT from './images/bht.png'
+import BHT from './images/wisedocs.jpeg'
 import SAP from './images/SAP.png'
 import TW from './images/torontowater.jpg'
 import KCM from './images/kcm.png'
-import Resume from './resume.pdf'
+import Resume from './RESUME_2021.pdf'
 
 const experienceContent = [
     [<a href ={Resume} className ="employerLinks" target = '_blank' rel="noopener noreferrer">My Resume</a>, ['Hover over the logos to learn about my work experiences!']],
 
-    [<><h1>Machine Learning Engineer</h1><h3>Bear Health Technologies</h3></>, 
-    ["BHT is Toronto-based startup that is transforming the independent medical examination industry. I got to work closely\
+    [<><h1>Machine Learning Engineer</h1><h3>Wisedocs</h3></>, 
+    ["Wisedocs is Toronto-based startup that is transforming the independent medical examination industry. I got to work closely\
     with Dr. Wei Sun on exciting NLP and classification problems, putting our ideas into motion on multiple pipeline components.\
     I got to dive deep into topics including dataset transformation, model training and selection, and software engineering while receiving\
     invaluable mentorship from my senior colleagues.",
-    "Despite my use of past-tense, I am continuing part-time to support further advancements!\
-    It has been a great experience to work at BHT for almost a year now; one four month internship can only instill so much. I've been\
-    able to see projects through and see metrics continually rise while working part-time."]],
+    "I continued part-time to support further advancements for a year after my internship ended. It was a great experience to work at such a \
+    vibrant startup for a long-term period; one four month internship can only instill so much! I was able to see projects through and watch \
+    metrics continually rise as my contributions took hold."]],
 
     [<><h1>Software Engineer</h1><h3>KCM Solutions Inc.</h3></>, 
     ['KCM Solutions is an IBM-partnered consulting company based in Toronto. My primary project was deploying a Watson Chatbot and writing backend\
@@ -51,10 +51,10 @@ class Experience extends React.Component{
     hoverHandle(company){
         var index = 0;
         console.log(index);
-        if(company == BHT) index = 1;
-        else if(company == KCM) index = 2;
-        else if(company == SAP) index = 3;
-        else if(company == TW) index = 4;
+        if(company === BHT) index = 1;
+        else if(company === KCM) index = 2;
+        else if(company === SAP) index = 3;
+        else if(company === TW) index = 4;
         this.setState({
             title: experienceContent[index][0],
             content: experienceContent[index][1]})

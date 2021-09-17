@@ -5,7 +5,7 @@ function IntroText(){
     return(
         <div className='introText'>
             <p>
-                Machine Learning Engineer at <a href="https://www.bht.ai/" target="_blank" rel="noopener noreferrer" className="employerLinks">Bear Health Technologies</a>.
+                Former Machine Learning Engineer at <a href="https://www.wisedocs.ai/" target="_blank" rel="noopener noreferrer" className="employerLinks">Wisedocs</a>.
             </p>
             <p>
                 Former intern at <a href="https://www.kcm-solutions.com/" className="employerLinks" target="_blank" rel="noopener noreferrer">KCM Solutions</a>, <a href="https://www.sap.com/index.html" className="employerLinks" target="_blank" rel="noopener noreferrer">SAP</a>,&nbsp;
