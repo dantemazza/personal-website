@@ -5,7 +5,10 @@ function IntroText(){
     return(
         <div className='introText'>
             <p>
-                Incoming Software Engineer at <a href="https://www.splunk.com/" target="_blank" rel="noopener noreferrer" className="employerLinks">Splunk</a>.
+                Software Engineer at <a href="https://www.shipsolver.com/" target="_blank" rel="noopener noreferrer" className="employerLinks">ShipSolver</a>.
+            </p>
+            <p>
+                Former Software Engineer Intern at <a href="https://www.splunk.com/" target="_blank" rel="noopener noreferrer" className="employerLinks">Splunk</a>.
             </p>
             <p>
                 Former Machine Learning Engineer at <a href="https://www.wisedocs.ai/" target="_blank" rel="noopener noreferrer" className="employerLinks">Wisedocs</a>.
