@@ -5,7 +5,10 @@ function IntroText(){
     return(
         <div className='introText'>
             <p>
-                Software Engineer at <a href="https://www.shipsolver.com/" target="_blank" rel="noopener noreferrer" className="employerLinks">ShipSolver</a>.
+                SEEKING NEW GRAD OPPORTUNITIES FOR 2023!
+            </p>
+            <p>
+                Software Development Engineer Intern at <a href="https://aws.amazon.com/" target="_blank" rel="noopener noreferrer" className="employerLinks">Amazon Web Services (AWS)</a>.
             </p>
             <p>
                 Former Software Engineer Intern at <a href="https://www.splunk.com/" target="_blank" rel="noopener noreferrer" className="employerLinks">Splunk</a>.
