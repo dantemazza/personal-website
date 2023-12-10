@@ -15,7 +15,7 @@ const experienceContent = [
     with Dr. Wei Sun on exciting NLP and classification problems, putting our ideas into motion on multiple pipeline components.\
     I got to dive deep into topics including dataset transformation, model training and selection, and software engineering while receiving\
     invaluable mentorship from my senior colleagues.",
-    "I continued part-time to support further advancements for a year after my internship ended. It was a great experience to work at such a \
+    "I continued as a permanent employee to support further advancements for a year after my internship ended. It was a great experience to work at such a \
     vibrant startup for a long-term period; one four month internship can only instill so much! I was able to see projects through and watch \
     metrics continually rise as my contributions took hold."]],
 
