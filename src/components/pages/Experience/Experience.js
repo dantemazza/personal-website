@@ -5,7 +5,7 @@ import BHT from './images/wisedocs.jpeg'
 import SAP from './images/SAP.png'
 import TW from './images/torontowater.jpg'
 import KCM from './images/kcm.png'
-import Resume from './RESUME_2021.pdf'
+import Resume from './RESUME_2023.pdf'
 
 const experienceContent = [
     [<a href ={Resume} className ="employerLinks" target = '_blank' rel="noopener noreferrer">My Resume</a>, ['Hover over the logos to learn about my work experiences!']],
